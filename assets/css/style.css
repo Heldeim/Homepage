@@ -1,3 +1,4 @@
+/* Esilização Geral */
 * {
     margin: 0;
     padding: 0;
@@ -15,18 +16,35 @@ body {
 
 header, main, footer {
     width: 100%;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav ul {
+i {
+    font-size: 2rem;
+}
+
+/* Estilização do Cabeçalho */
+header {
+    background-color: aqua;
+    height: 7.5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10%;
 }
 
+/* Estilização do Conteudo Principal */
+/* Seção da Tela Incial */
 main .start {
     width: 100%;
 
